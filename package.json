@@ -24,8 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitmsg": "commitlint -e",
     "commit": "git-cz",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare-production": "snyk protect"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
