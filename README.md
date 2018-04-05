@@ -9,4 +9,5 @@ TBD
 ## License
 
 Copyright (c) 2018, freeCodeCamp.
+
 The computer software in this repository is licensed under the [BSD-3-Clause](./LICENSE).
