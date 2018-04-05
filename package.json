@@ -10,7 +10,8 @@
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "snyk": "^1.70.3"
   },
   "keywords": [
     "gatsby"
@@ -22,7 +23,9 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitmsg": "commitlint -e",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
@@ -39,5 +42,6 @@
   "bugs": {
     "url": "https://github.com/freeCodeCamp/events/issues"
   },
-  "homepage": "https://github.com/freeCodeCamp/events#readme"
+  "homepage": "https://github.com/freeCodeCamp/events#readme",
+  "snyk": true
 }
