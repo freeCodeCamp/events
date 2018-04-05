@@ -1,13 +1,19 @@
-import React from 'react'
-import Link from 'gatsby-link'
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+import React from 'react';
+import Link from 'gatsby-link';
+import get from 'lodash/get';
+import Helmet from 'react-helmet';
 
-export default IndexPage
+class IndexPage extends React.Component {
+  render() {
+    return (
+      <div style={{
+        'text-align' : 'center'
+      }}>
+        <p> Welcome to freeCodeCamp Events. </p>
+      </div>
+    )
+  }
+}
+
+export default IndexPage;

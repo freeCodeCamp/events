@@ -5,3 +5,9 @@ yarn-error.log
 
 # Build directory
 /public
+
+# Lock files
+yarn.lock
+
+# Others
+.env.*
