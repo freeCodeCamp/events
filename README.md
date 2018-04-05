@@ -6,6 +6,19 @@
 
 TBD
 
+## Local Setup
+
+1.  fork and clone
+2.  `npm install`
+3.  `touch .env.development`
+4.  Add these entries in the `.env.development`
+
+    ```
+    AUTH0_DOMAIN=xxxxxxxxxxxx.auth0.com
+    AUTH0_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    ```
+5.  `npm run develop`
+
 ## License
 
 Copyright (c) 2018, freeCodeCamp.
