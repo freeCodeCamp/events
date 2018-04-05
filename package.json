@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "freecodecamp-events",
+  "private": "true",
+  "description": "freeCodeCamp Events",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "freeCodeCamp <team@freecodecamp.org> (https://freecodecamp.org)",
   "dependencies": {
     "auth0-js": "^9.4.2",
     "dotenv": "^5.0.1",
@@ -14,14 +15,29 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "commitlint -e",
+    "commit": "git-cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^6.1.3",
+    "@commitlint/config-conventional": "^6.1.3",
+    "@commitlint/travis-cli": "^6.1.3",
+    "commitizen": "^2.9.6",
+    "husky": "^0.14.3",
     "prettier": "^1.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/events.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/events/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/events#readme"
 }
