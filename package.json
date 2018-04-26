@@ -1,6 +1,6 @@
 {
   "name": "freecodecamp-events",
-  "private": "true",
+  "private": true,
   "description": "freeCodeCamp Events",
   "version": "1.0.0",
   "author": "freeCodeCamp <team@freecodecamp.org> (https://freecodecamp.org)",

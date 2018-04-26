@@ -11,7 +11,7 @@ TBD
 ## Local Setup
 
 1.  fork and clone
-2.  `npm install`
+2.  `yarn`
 3.  `touch .env.development`
 4.  Add these entries in the `.env.development`
 
@@ -19,7 +19,7 @@ TBD
     AUTH0_DOMAIN=xxxxxxxxxxxx.auth0.com
     AUTH0_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     ```
-5.  `npm run develop`
+5.  `yarn develop`
 
 ## License
 
