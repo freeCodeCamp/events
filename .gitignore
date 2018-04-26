@@ -7,7 +7,7 @@ yarn-error.log
 /public
 
 # Lock files
-yarn.lock
+package-lock.json
 
 # Others
 .env.*
