@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -98,3 +98,6 @@ patch:
         patched: '2018-04-05T22:34:09.819Z'
     - gatsby > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2018-04-05T22:34:09.819Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2018-07-03T03:42:58.091Z'

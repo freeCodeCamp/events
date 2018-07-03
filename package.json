@@ -11,7 +11,7 @@
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "react-helmet": "^5.2.0",
-    "snyk": "^1.70.3"
+    "snyk": "^1.88.0"
   },
   "keywords": [
     "gatsby"
@@ -24,7 +24,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitmsg": "commitlint -e",
     "commit": "git-cz",
-    "prepare-production": "snyk protect"
+    "prepare-production": "snyk protect",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
