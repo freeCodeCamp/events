@@ -4,25 +4,6 @@
 
 # events
 
-## About
+## Notice
 
-TBD
-
-## Local Setup
-
-1.  fork and clone
-2.  `yarn`
-3.  `touch .env.development`
-4.  Add these entries in the `.env.development`
-
-    ```
-    AUTH0_DOMAIN=xxxxxxxxxxxx.auth0.com
-    AUTH0_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    ```
-5.  `yarn develop`
-
-## License
-
-Copyright (c) 2018, freeCodeCamp.
-
-The computer software in this repository is licensed under the [BSD-3-Clause](./LICENSE).
+This repository has been archived in favor of the same available in the monorepo at <https://github.com/freeCodeCamp/freeCodeCamp>
